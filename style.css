@@ -1,0 +1,206 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Nav_Homepage {
+    background-color: #000000; /* Set navbar background color */
+}
+
+.logo_aeiv {
+    height: 40px;
+    width: 20px;
+}
+
+.home_nav_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px; /* Add padding for better spacing */
+}
+
+.home_nav {
+    list-style-type: none; /* Remove bullets */
+    display: flex;
+    gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: whitesmoke;
+    padding-top: 5px;
+}
+.home_nav:hover .home_nav_hover:hover{
+    background-color: rgba(185, 5, 173, 0.341);
+    
+}
+
+.home_nav li a{
+    color: #ffffff; /* Set text color */
+    text-decoration: none;
+
+}
+
+.nav_search_button {
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.spline_viewer {
+    margin-top: 10px; /* Adjust margin to create space between navbar and animation */
+}
+
+.using_aeiv_homepage_grid{
+    width: 100%;
+    padding: 0px 60px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: 200px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 4rem;
+    display: grid;
+    background-color: #000000;
+}
+.using_aeiv_homepage_grid_inside{
+    align-items: center;
+    color: rgba(255, 255, 255, 0.69);
+    width: 100%;
+    font-size: small;
+    display: grid;
+    background-color:rgba(0, 0, 0, 0.125);
+    border: 1px solid rgb(83, 6, 113);
+    border-radius: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgba(0, 0, 6, 0) 48%,rgba(0, 0, 0, 0.01) 55%,#000000),linear-gradient(#000000,#540b6692 80%);
+}
+.using_aeiv_homepage_grid_inside h1{
+    font-size: 22px;
+    color: rgb(244, 242, 246);
+}
+.using_aeiv_homepage_grid_inside p{
+    font-size: 17px;
+    color: rgb(158, 132, 176);
+}
+.aeiv_finances{
+    width: 100%;
+    padding: 0px 60px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: 400px 150px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+    display: grid;
+    background-color: #000000;
+}
+.aeiv_finances_content{
+    align-items: center;
+    color: rgba(0, 255, 8, 0.916);
+    width: 100%;
+    font-size: small;
+    display: grid;
+    background-color:rgba(2, 2, 2, 0.063);
+    border: 1px solid rgb(64, 255, 0);
+    border-radius: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.632) 48%,rgba(40, 224, 27, 0) 55%,#02ff3015),linear-gradient(#000000,#02fd1b00 80%);
+}
+.build_on_aeiv{
+    width: 100%;
+    padding: 0px 60px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: 400px 150px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+    display: grid;
+    background-color: #000000;
+}
+.build_on_aeiv_content{
+    align-items: center;
+    color: rgb(255, 3, 209);
+    width: 100%;
+    font-size: small;
+    display: grid;
+    background-color:rgba(0, 0, 0, 0.125);
+    border: 1px solid rgb(220, 3, 253);
+    border-radius: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgba(0, 0, 6, 0.266) 48%,rgba(0, 0, 0, 0.01) 55%,#000000),linear-gradient(#000000,#ff00b34c 80%);
+}
+
+.alpiner_server{
+    width: 100%;
+    padding: 0px 60px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: 400px 150px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+    display: grid;
+    background-color: #000000;
+}
+.alpiner_server_content{
+    align-items: center;
+    color: rgb(2, 161, 254);
+    width: 100%;
+    font-size: small;
+    display: grid;
+    background-color:rgba(0, 0, 0, 0.125);
+    border: 1px solid rgb(2, 161, 254);
+    border-radius: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgba(0, 0, 6, 0) 48%,rgba(0, 0, 0, 0.01) 55%,#000000),linear-gradient(#000000,#00fffb25 80%);
+}
+.batches_aeiv{
+    width: 100%;
+    padding: 150px 50px 20px 70px;
+    grid-column-gap: 110px;
+    grid-template-rows: 400px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 4rem;
+    display: grid;
+    background-image: url(/logo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 600px 600px;
+    background-position: center;
+}
+
+.opulance_batch{
+    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 250px;
+}
+.alpiner_batch{
+    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 250px;
+    align-items: center;
+}
+.Zealot_batch{
+    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 250px;
+}
+.Philos_batch{
+    background-color: rgba(255, 255, 255, 0.163);
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 250px;
+}

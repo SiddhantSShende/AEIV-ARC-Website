@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEIV ARC</title>
+    <link rel="shortcut icon" href="/favicon logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Nav_Homepage">
+        <nav class="home_nav_top">
+            <div class="logo_aeiv">
+                <a href><img src="/logo.jpeg" alt="AEIV" width="45"></a>
+            </div>
+            <ul class="home_nav">
+                <li class="home_nav_hover"><p><a href="#">Resources</a></li></p>
+                <li class="home_nav_hover"><p><a href="#">Use AEIV</a></li></p>
+                <li class="home_nav_hover"><p><a href="#">Company</a></li></p>
+                <li class="home_nav_hover"><p><a href="#">Solutions</a></li></p>
+                <li class="home_nav_hover"><p><a href="#">Community</a></li></p>
+                <li class="home_nav_hover"><p><a href="#">Web3 Store</a></li></p>
+            </ul>
+            <div class="search_button">
+                <button type="button" class="nav_search_button">Search</button>
+            </div>
+        </nav>
+    </div>
+    <div class="spline_viewer">
+        <spline-viewer url="https://prod.spline.design/GS-ISzNjhoWmGmnr/scene.splinecode"></spline-viewer>
+    </div>
+    <div class="using_aeiv_homepage_grid">
+        <div class="using_aeiv_homepage_grid_inside">
+            <h1 class="Own_Maneryls_head">Own Maneryls</h1>
+            <p>Use mnx to get acess to use DP, contribute towards development of DP and creating DP</p>
+        </div>
+        <div class="using_aeiv_homepage_grid_inside">
+            <h1 class="use_access_aeiv">Use platforms</h1>
+            <p>Explore Dp and use any DP for your loving purposes</p>
+        </div>
+        <div class="using_aeiv_homepage_grid_inside">
+            <h1 class="Zealots_homepage_head">Zealot</h1>
+            <p>Create any DP and list it in store and make it accessessible to the world and earn Maneryls</p>
+        </div>
+        <div class="using_aeiv_homepage_grid_inside">
+            <h1 class="alpiner_homepage_head">Alpine</h1>
+            <p>Join as an Alpiner and contribute in development and adding features at any DP you like</p>
+        </div>
+    </div>
+    <div class="aeiv_finances">
+        <div class="aeiv_finances_content">
+            <h1 class="get_access_dp_content_heading">Cash Infusion</h1>
+            <h2 class="get_access_dp_text">Manage and Develope your assests with AEIV Financial services. Your transactions, currency swaps, liquidity, brokerage, investments, rewards, etc. are managed by AEIV BAnX, Hedge Funds etc.</h2>
+            <button class="get_access_dp-button">Explore!</button>
+        </div>
+        <div class="spline-viewer" id="get_access_dp_img">
+            <img src="/cashinfusionwallpaper.png" alt="" width="650px">
+        </div>
+
+    </div>
+    <div class="build_on_aeiv">
+        <div class="spline_viewer" id="build_on_aeiv_img">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.42/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/5-xLzMo9VAxNliWi/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="build_on_aeiv_content">
+            <h1 class="build_on_aeiv_content_heading">Zealot</h1>
+            <h2 class="build_on_aeiv_content_text">Participate as zealot and built on AEIV IDE to list any Decentralized Platforms you wish to list on DNA(Decentralized Network of AEIV) Blockchain</h2>
+            <button class="build_on_aeiv_content_button">Build an DP</button>
+        </div>
+    </div>
+    <div class="alpiner_server">
+        <div class="alpiner_server_content">
+            <h1>Develope and contribute</h1>
+            <h2>Develope and contribute in any changes you want in DP listed in DNA as an alpiner you can run DP the way you want</h2>
+            <button class="alpiner_server_content_button">contribute</button>
+        </div>
+        <div class="spline-viewer" id="alpiner_server_img">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.45/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/drCGjzShTmTh0kTy/scene.splinecode"></spline-viewer>
+        </div>
+    </div>
+    <div></div>
+    <div class="batches_aeiv_section">
+        <div class="batches_aeiv_section_heading">
+            <h1>AEIV BATCHES</h1>
+        </div>
+        <div class="batches_aeiv">
+            <div class="opulance_batch">
+                <h1>Opulance batch</h1>
+            </div>
+            <div class="alpiner_batch">
+                <h1>alpiner_batch</h1>
+            </div>
+            <div class="Zealot_batch">
+                <h1>Zealot_batch</h1>
+            </div>
+            <div class="Philos_batch">
+                <h1>Philos_batch</h1>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.34/build/spline-viewer.js">
+    import { Application } from '@splinetool/runtime';
+
+    const canvas = document.getElementById('canvas3d');
+    const app = new Application(canvas);
+    app.load('https://prod.spline.design/GS-ISzNjhoWmGmnr/scene.splinecode');
+    app.load('https://prod.spline.design/5-xLzMo9VAxNliWi/scene.splinecode');
+    app.load('https://prod.spline.design/lIVhuPDFW9qfXM9w/scene.splinecode');
+    app.load('https://prod.spline.design/drCGjzShTmTh0kTy/scene.splinecode');
+
+</script>
+
+</html>
